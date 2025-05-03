@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WEBUILD -  Construction Company Website Template Free</title>
+    <title>Stelin Man</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon -->
     <link href="assets/img/favicon.ico" rel="icon">
