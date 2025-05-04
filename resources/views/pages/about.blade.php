@@ -4,6 +4,20 @@
 
 @include('includes.header')
 
+<style>
+
+    .image {
+        min-height: 350px;
+    }
+
+@media (max-width: 450px) {
+    .image {
+        min-height: 150px;
+    }
+}
+
+</style>
+
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header">
@@ -29,7 +43,7 @@
                     Throughout our evolution, we've maintained our founding principles: respect for the earth, commitment to communities, and dedication to sustainable resource development.
                 </p>
             </div>
-            <div class="col-lg-5 pb-5" style="min-height: 350px;">
+            <div class="col-lg-5 pb-5 image">
                 <div class="position-relative bg-dark-radial h-100 ms-5">
                     <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/logo.jpg" style="object-fit: cover;">
                 </div>
@@ -65,7 +79,7 @@
             </div>
             <div class="col-lg-5 pb-5" style="min-height: 350px;">
                 <div class="position-relative bg-dark-radial h-100 ms-5">
-                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/mining4.jpg" style="object-fit: cover;border-radius: 20px;">
                 </div>
             </div>
         </div>
@@ -304,7 +318,7 @@
             </div>
             <div class="col-lg-5 pb-5" style="min-height: 350px;">
                 <div class="position-relative bg-dark-radial h-100 ms-5">
-                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/Ghana-Gold-WAF.jpg" style="object-fit: cover;border-radius: 20px;">
                 </div>
             </div>
             <p class="mb-4">

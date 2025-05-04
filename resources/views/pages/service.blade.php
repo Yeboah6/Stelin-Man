@@ -4,6 +4,22 @@
 
 @include('includes.header')
 
+<style>
+
+    .image img{
+        min-height: 330px;
+        /* min-width: 350px; */
+        border-radius: 20px;
+    }
+
+@media (max-width: 450px) {
+    .image {
+        min-height: 150px;
+    }
+}
+
+</style>
+
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header">
@@ -18,14 +34,14 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid bg-light py-6 px-5">
+    <div class="container-fluid bg-light py-6 px-5 image">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 text-uppercase mb-4">Our Mining Services</h1>
         </div>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-1.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/Geology.webp" alt="">
                     <div class="service-icon">
                         {{-- <i class="fa fa-3x fa-building text-primary"></i> --}}
                     </div>
@@ -45,7 +61,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-2.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="">
                     <div class="service-icon">
                     </div>
                     <div class="px-4 pb-4">
@@ -65,9 +81,8 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-3.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/Ghana-Manganese.jpg" alt="">
                     <div class="service-icon">
-                        {{-- <i class="fa fa-3x fa-drafting-compass text-primary"></i> --}}
                     </div>
                     <div class="px-4 pb-4">
                         <h4 class="text-uppercase mb-3">Processing and Refinement</h4>
@@ -86,7 +101,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-4.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="">
                     <div class="service-icon">
                     </div>
                     <div class="px-4 pb-4">
@@ -106,7 +121,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-5.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/digital-transformation-mining.jpeg" alt="">
                     <div class="service-icon">
                     </div>
                     <div class="px-4 pb-4">
@@ -130,7 +145,7 @@
 
 
     <!-- Appointment Start -->
-    <div class="container-fluid py-6 px-5">
+    {{-- <div class="container-fluid py-6 px-5">
             <div class="row gx-5">
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <div class="mb-4">
@@ -174,7 +189,7 @@
                     </div>
                 </div>
             </div>
-    </div>
+    </div> --}}
     <!-- Appointment End -->
 
 

@@ -4,6 +4,25 @@
 
 @include('includes.header')
 
+<style>
+
+    .image {
+        min-height: 500px;
+    }
+
+    .latest img{
+        height: 300px;
+        border-radius: 20px;
+    }
+
+@media (max-width: 450px) {
+    .image {
+        min-height: 300px;
+    }
+}
+
+</style>
+
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
@@ -18,7 +37,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="assets/img/Ghana-Manganese.jpg" alt="Image">
+                    <img class="w-100" src="assets/img/mining3.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-2 text-uppercase text-white mb-md-4">We Are Trusted For Your Project</h1>
@@ -45,7 +64,7 @@
     <div class="container-fluid py-6 px-5">
         <div class="row g-5">
             <div class="col-lg-7">
-                <h1 class="display-5 text-uppercase mb-4">We are <span class="text-primary">the Leader</span> in <br> Mining Industry</h1>
+                <h1 class="display-5 text-uppercase mb-4"><span class="text-primary">the Leader</span> in Mining Industry</h1>
                 <p>At Stelin Man, we combine cutting-edge technology with sustainable practices to deliver exceptional mining services across the globe.
                      With decades of industry experience and a commitment to environmental stewardship, we provide comprehensive solutions for exploration, extraction, and processing.
                     </p>
@@ -58,9 +77,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 pb-5" style="min-height: 500px;">
+            
+            <div class="col-lg-5 pb-5 image">
                 <div class="position-relative bg-dark-radial h-100 ms-5">
-                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/mining1.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="assets/img/mining1.jpg" style="object-fit: cover;border-radius: 20px">
                 </div>
             </div>
         </div>
@@ -73,10 +93,10 @@
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 text-uppercase mb-4"> Latest Projects</h1>
         </div>
-        <div class="row g-5">
+        <div class="row g-5 latest">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-1.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="">
                     <div class="service-icon">
                     </div>
                     <div class="px-4 pb-4">
@@ -88,7 +108,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-2.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/ship.webp" alt="">
                     <div class="service-icon">
                     </div>
                     <div class="px-4 pb-4">
@@ -100,7 +120,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="assets/img/service-3.jpg" alt="">
+                    <img class="img-fluid" src="assets/img/mining3.jpg" alt="">
                     <div class="service-icon ">
                     </div>
                     <div class="px-4 pb-4">

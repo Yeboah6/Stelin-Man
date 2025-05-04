@@ -6,7 +6,7 @@
                     <br>
                     <br>
                 </a>
-                <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                <p>At Stelin Man, we combine cutting-edge technology with sustainable practices to deliver exceptional mining services across the globe.</p>
                 <p><i class="fa fa-map-marker-alt me-2"></i>Location, City, Country</p>
                 <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
                 <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
@@ -42,14 +42,6 @@
                             <a class="text-white-50" href="/contact"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-sm-12">
-                        <h4 class="text-white text-uppercase mb-4">Newsletter</h4>
-                        <div class="w-100">
-                            <div class="input-group">
-                                <input type="text" class="form-control border-light" style="padding: 20px 30px;" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -59,8 +51,5 @@
             <div class="py-4 px-5 text-center text-md-start">
                 <p class="mb-0">&copy; All Rights Reserved  </p>
             </div>
-            {{-- <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
-                <p class="mb-0">Designed by <a class="text-dark" href="https://freewebsitecode.com">Free Website Code</a></p>
-            </div> --}}
         </div>
     </div>
